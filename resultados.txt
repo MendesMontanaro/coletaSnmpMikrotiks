@@ -1,0 +1,204 @@
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.42.10 (long-term) SXT Lite5"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.42.10 (long-term) SXT Lite5"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.39.3 (bugfix) RB Metal 5SHPn"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.39.2 (stable) SXT Lite5"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.45.9 (long-term) RB OmniTIK UPA-5HnD"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.42.12 (long-term) BaseBox 5"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.42.12 (long-term) RB OmniTIK U-5HnD"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.44.1 (stable) RB921GS-5HPacD r2"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.46.4 (stable) BaseBox 5"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.42.12 (long-term) RB OmniTIK UPA-5HnD"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.42.12 (long-term) BaseBox 5"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.46.4 (stable) NetBox 5"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.47.4 (stable) OmniTIK 5 PoE"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.44.3 (stable) OmniTIK 5 PoE"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.40.9 (bugfix) BaseBox 5"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.42.6 (stable) BaseBox 6"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.47.3 (stable) RB OmniTIK UPA-5HnD"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.45.7 (stable) RB OmniTIK UPA-5HnD"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.44 (stable) BaseBox 5"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.45.9 (long-term) BaseBox 5"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.39.2 (stable) RB OmniTIK UPA-5HnD"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.42.10 (long-term) BaseBox 5"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.45.7 (stable) OmniTIK 5 PoE"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.40.8 (bugfix) RB OmniTIK U-5HnD"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.42.6 (stable) BaseBox 6"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.42.11 (long-term) OmniTIK 5 PoE"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.43.4 (stable) RB OmniTIK UPA-5HnD"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.45.9 (long-term) OmniTIK 5 PoE"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.40.3 (stable) BaseBox 5"
+Iniciando coleta SNMP no equipamento: 10.240.76.130
+Foi coletado a seguinte informação:  256  do host:  10.240.76.130
+Iniciando coleta SNMP no equipamento: 191.7.208.106
+Foi coletado a seguinte informação:  256  do host:  191.7.208.106
+Iniciando coleta SNMP no equipamento: 10.240.76.202
+Foi coletado a seguinte informação:  256  do host:  10.240.76.202
+Iniciando coleta SNMP no equipamento: 10.240.76.5
+Foi coletado a seguinte informação:  0  do host:  10.240.76.5
+Iniciando coleta SNMP no equipamento: 10.240.76.13
+Foi coletado a seguinte informação:  256  do host:  10.240.76.13
+Iniciando coleta SNMP no equipamento: 10.240.76.6
+Foi coletado a seguinte informação:  0  do host:  10.240.76.6
+Iniciando coleta SNMP no equipamento: 10.240.76.21
+Foi coletado a seguinte informação:  256  do host:  10.240.76.21
+Iniciando coleta SNMP no equipamento: 10.240.76.171
+Foi coletado a seguinte informação:  256  do host:  10.240.76.171
+Iniciando coleta SNMP no equipamento: 10.240.76.143
+Foi coletado a seguinte informação:  256  do host:  10.240.76.143
+Iniciando coleta SNMP no equipamento: 10.240.76.144
+Foi coletado a seguinte informação:  256  do host:  10.240.76.144
+Iniciando coleta SNMP no equipamento: 10.240.76.157
+Foi coletado a seguinte informação:  256  do host:  10.240.76.157
+Iniciando coleta SNMP no equipamento: 10.240.76.238
+Foi coletado a seguinte informação:  256  do host:  10.240.76.238
+Iniciando coleta SNMP no equipamento: 10.240.76.152
+Foi coletado a seguinte informação:  256  do host:  10.240.76.152
+Iniciando coleta SNMP no equipamento: 10.240.76.153
+Foi coletado a seguinte informação:  0  do host:  10.240.76.153
+Iniciando coleta SNMP no equipamento: 10.240.76.148
+Foi coletado a seguinte informação:  256  do host:  10.240.76.148
+Iniciando coleta SNMP no equipamento: 10.240.76.149
+Foi coletado a seguinte informação:  256  do host:  10.240.76.149
+Iniciando coleta SNMP no equipamento: 10.240.76.194
+Foi coletado a seguinte informação:  256  do host:  10.240.76.194
+Iniciando coleta SNMP no equipamento: 10.240.76.195
+Foi coletado a seguinte informação:  256  do host:  10.240.76.195
+Iniciando coleta SNMP no equipamento: 10.240.76.90
+Foi coletado a seguinte informação:  256  do host:  10.240.76.90
+Iniciando coleta SNMP no equipamento: 10.240.76.198
+Foi coletado a seguinte informação:  256  do host:  10.240.76.198
+Iniciando coleta SNMP no equipamento: 10.240.76.199
+Foi coletado a seguinte informação:  0  do host:  10.240.76.199
+Iniciando coleta SNMP no equipamento: 10.240.76.212
+Foi coletado a seguinte informação:  256  do host:  10.240.76.212
+Iniciando coleta SNMP no equipamento: 10.240.76.213
+Foi coletado a seguinte informação:  256  do host:  10.240.76.213
+Iniciando coleta SNMP no equipamento: 10.240.76.209
+Foi coletado a seguinte informação:  256  do host:  10.240.76.209
+Iniciando coleta SNMP no equipamento: 10.240.76.210
+Foi coletado a seguinte informação:  256  do host:  10.240.76.210
+Iniciando coleta SNMP no equipamento: 10.240.76.204
+Foi coletado a seguinte informação:  256  do host:  10.240.76.204
+Iniciando coleta SNMP no equipamento: 10.240.76.205
+Foi coletado a seguinte informação:  256  do host:  10.240.76.205
+Iniciando coleta SNMP no equipamento: 10.240.76.134
+Foi coletado a seguinte informação:  256  do host:  10.240.76.134
+Iniciando coleta SNMP no equipamento: 10.240.76.135
+Foi coletado a seguinte informação:  256  do host:  10.240.76.135
+Iniciando coleta SNMP no equipamento: 10.240.76.131
+Foi coletado a seguinte informação:  256  do host:  10.240.76.131
+Iniciando coleta SNMP no equipamento: 10.240.76.132
+Foi coletado a seguinte informação:  256  do host:  10.240.76.132
+Iniciando coleta SNMP no equipamento: 10.240.76.8
+Foi coletado a seguinte informação:  256  do host:  10.240.76.8
+Iniciando coleta SNMP no equipamento: 10.240.76.9
+Foi coletado a seguinte informação:  256  do host:  10.240.76.9
+Iniciando coleta SNMP no equipamento: 10.240.76.122
+Foi coletado a seguinte informação:  256  do host:  10.240.76.122
+Iniciando coleta SNMP no equipamento: 10.240.76.123
+Foi coletado a seguinte informação:  256  do host:  10.240.76.123
+Iniciando coleta SNMP no equipamento: 10.240.76.226
+Foi coletado a seguinte informação:  256  do host:  10.240.76.226
+Iniciando coleta SNMP no equipamento: 10.240.76.227
+Foi coletado a seguinte informação:  256  do host:  10.240.76.227
+Iniciando coleta SNMP no equipamento: 10.240.76.242
+Foi coletado a seguinte informação:  256  do host:  10.240.76.242
+Iniciando coleta SNMP no equipamento: 10.240.76.243
+Foi coletado a seguinte informação:  256  do host:  10.240.76.243
+Iniciando coleta SNMP no equipamento: 10.240.76.7
+Foi coletado a seguinte informação:  0  do host:  10.240.76.7
+Iniciando coleta SNMP no equipamento: 10.240.76.22
+Foi coletado a seguinte informação:  0  do host:  10.240.76.22
+Iniciando coleta SNMP no equipamento: 10.240.76.4
+Foi coletado a seguinte informação:  0  do host:  10.240.76.4
+Iniciando coleta SNMP no equipamento: 10.240.76.3
+Foi coletado a seguinte informação:  0  do host:  10.240.76.3
+Iniciando coleta SNMP no equipamento: 10.240.76.141
+Foi coletado a seguinte informação:  256  do host:  10.240.76.141
+Iniciando coleta SNMP no equipamento: 10.240.76.142
+Foi coletado a seguinte informação:  0  do host:  10.240.76.142
+Iniciando coleta SNMP no equipamento: 10.240.76.151
+Foi coletado a seguinte informação:  0  do host:  10.240.76.151
+Iniciando coleta SNMP no equipamento: 10.240.76.219
+Foi coletado a seguinte informação:  0  do host:  10.240.76.219
+Iniciando coleta SNMP no equipamento: 10.240.76.164
+Foi coletado a seguinte informação:  0  do host:  10.240.76.164
+Iniciando coleta SNMP no equipamento: 10.240.76.165
+Foi coletado a seguinte informação:  0  do host:  10.240.76.165
+Iniciando coleta SNMP no equipamento: 10.240.76.150
+Foi coletado a seguinte informação:  0  do host:  10.240.76.150
+Iniciando coleta SNMP no equipamento: 10.240.76.250
+Foi coletado a seguinte informação:  0  do host:  10.240.76.250
+Iniciando coleta SNMP no equipamento: 10.240.76.208
+Foi coletado a seguinte informação:  0  do host:  10.240.76.208
+Iniciando coleta SNMP no equipamento: 10.240.76.218
+Foi coletado a seguinte informação:  0  do host:  10.240.76.218
+Iniciando coleta SNMP no equipamento: 10.240.76.197
+Foi coletado a seguinte informação:  0  do host:  10.240.76.197
+Iniciando coleta SNMP no equipamento: 10.240.76.147
+Foi coletado a seguinte informação:  0  do host:  10.240.76.147
+Iniciando coleta SNMP no equipamento: 10.240.76.146
+Foi coletado a seguinte informação:  0  do host:  10.240.76.146
+Iniciando coleta SNMP no equipamento: 10.240.76.178
+Foi coletado a seguinte informação:  0  do host:  10.240.76.178
+Iniciando coleta SNMP no equipamento: 10.240.76.214
+Foi coletado a seguinte informação:  0  do host:  10.240.76.214
+Iniciando coleta SNMP no equipamento: 10.240.76.82
+Foi coletado a seguinte informação:  0  do host:  10.240.76.82
+Iniciando coleta SNMP no equipamento: 10.240.76.211
+Foi coletado a seguinte informação:  0  do host:  10.240.76.211
+Iniciando coleta SNMP no equipamento: 10.240.76.207
+Foi coletado a seguinte informação:  0  do host:  10.240.76.207
+Iniciando coleta SNMP no equipamento: 10.240.76.138
+Foi coletado a seguinte informação:  0  do host:  10.240.76.138
+Iniciando coleta SNMP no equipamento: 10.240.76.133
+Foi coletado a seguinte informação:  0  do host:  10.240.76.133
+Iniciando coleta SNMP no equipamento: 10.240.76.139
+Foi coletado a seguinte informação:  0  do host:  10.240.76.139
+Iniciando coleta SNMP no equipamento: 10.240.76.136
+Foi coletado a seguinte informação:  0  do host:  10.240.76.136
+Iniciando coleta SNMP no equipamento: 10.240.76.10
+Foi coletado a seguinte informação:  0  do host:  10.240.76.10
+Iniciando coleta SNMP no equipamento: 10.240.76.124
+Foi coletado a seguinte informação:  0  do host:  10.240.76.124
+Iniciando coleta SNMP no equipamento: 10.240.76.229
+Foi coletado a seguinte informação:  0  do host:  10.240.76.229
+Iniciando coleta SNMP no equipamento: 10.240.76.230
+Foi coletado a seguinte informação:  0  do host:  10.240.76.230
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.42.9 (long-term) RB OmniTIK U-5HnD"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.46.4 (stable) OmniTIK 5 PoE"
+iso.0.8802.1.1.2.1.3.4.0 = STRING: "MikroTik RouterOS 6.48.1 (stable) RB3011UiAS"
+Iniciando coleta SNMP no equipamento: 10.240.76.118
+Foi coletado a seguinte informação:  0  do host:  10.240.76.118
+Iniciando coleta SNMP no equipamento: 10.240.76.244
+Foi coletado a seguinte informação:  0  do host:  10.240.76.244
+Iniciando coleta SNMP no equipamento: 10.240.76.166
+Foi coletado a seguinte informação:  256  do host:  10.240.76.166
+Iniciando coleta SNMP no equipamento: 10.240.76.145
+Foi coletado a seguinte informação:  256  do host:  10.240.76.145
+Iniciando coleta SNMP no equipamento: 10.240.76.206
+Foi coletado a seguinte informação:  256  do host:  10.240.76.206
+Iniciando coleta SNMP no equipamento: 10.240.76.54
+Foi coletado a seguinte informação:  256  do host:  10.240.76.54
+Iniciando coleta SNMP no equipamento: 10.240.76.2
+Foi coletado a seguinte informação:  0  do host:  10.240.76.2
+Iniciando coleta SNMP no equipamento: 10.240.76.196
+Foi coletado a seguinte informação:  256  do host:  10.240.76.196
+Iniciando coleta SNMP no equipamento: 10.240.76.222
+Foi coletado a seguinte informação:  256  do host:  10.240.76.222
+Iniciando coleta SNMP no equipamento: 10.240.76.228
+Foi coletado a seguinte informação:  256  do host:  10.240.76.228
+Iniciando coleta SNMP no equipamento: 10.240.76.86
+Foi coletado a seguinte informação:  256  do host:  10.240.76.86
+Iniciando coleta SNMP no equipamento: 10.240.76.59
+Foi coletado a seguinte informação:  256  do host:  10.240.76.59
+Iniciando coleta SNMP no equipamento: 10.240.76.50
+Foi coletado a seguinte informação:  256  do host:  10.240.76.50
+Iniciando coleta SNMP no equipamento: 10.240.76.38
+Foi coletado a seguinte informação:  256  do host:  10.240.76.38
+Iniciando coleta SNMP no equipamento: 10.240.76.34
+Foi coletado a seguinte informação:  256  do host:  10.240.76.34
+Iniciando coleta SNMP no equipamento: 10.240.76.42
+Foi coletado a seguinte informação:  256  do host:  10.240.76.42
+Iniciando coleta SNMP no equipamento: 10.240.76.46
+Foi coletado a seguinte informação:  256  do host:  10.240.76.46
