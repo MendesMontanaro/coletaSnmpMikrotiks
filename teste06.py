@@ -2,6 +2,7 @@ import time
 import signal
 import netmiko
 import logging
+import paramiko
 
 logging.basicConfig(filename='login.log', level=logging.DEBUG)
 logger = logging.getLogger('netmiko')
@@ -47,10 +48,10 @@ def colect_list():
 
 colect_list()
 
-print(len(iplist))
-print(len(portlist))
-print(len(userlist))
-print(len(passlist))
+print("o arquivo tem: ", len(iplist), " ips")
+print("o arquivo tem ", len(portlist), " portas")
+print("o arquivo tem ", len(userlist), " usuarios")
+print("o arquivo tem ", len(passlist), " senhas")
 
 iplength = len(iplist)
 portlenght = len(portlist)
@@ -71,12 +72,31 @@ datatime = time.strftime("%Y-%m-%d")
 
 
 def config_mass():
-    for ipline, portline in zip(iplength, portlenght):
+    for ipline, portline in zip(iplist, portlist):
         signal.alarm(60)
         for user in userlist:
             for password in passlist:
                 try:
-                    print("IP: " + iplist[ipline] + " porta: " + portlist[portline])
+                    print("Vamos lá!\n")
+                    print("IP: ", ipline, " porta: ", portline, "usuario: ", user, "senha: ", password)
+                    host1 = {  # Enter Device information
+                        "host": ipline,
+                        "username": user,
+                        "password": password,
+                        "device_type": "mikrotik_routeros",
+                        "global_delay_factor": 0.1,
+                        "conn_timeout": 15,
+                        "port": portline,
+                        # Increase all sleeps by a factor of 1
+                    }
+
+                    net_connect = netmiko.Netmiko(**host1)
+                    command1 = ["inter print"]  # Enter set of commands
+                    print("Connected to:", net_connect.find_prompt())               # Display hostname
+                    output = net_connect.send_config_set(command1, delay_factor=.5) # Run set of commands in order
+
+                    print(output)
+                    net_connect.disconnect()
 
                     pass
                     #print("config FINALIZADA NO IP ", iplist[line], " às ", datatime)
@@ -97,6 +117,29 @@ def config_mass():
                     #signal.alarm(0)
                     #continue
 
+                except netmiko.ssh_exception.NetmikoTimeoutException as mikoerr3:
+                    print("Erro de login - exeption netmiko timeout mikoerr3")
+                    print(mikoerr3)
+
+                    continue
+
+                except paramiko.ssh_exception.AuthenticationException as mikoerr4:
+                    print("Erro de login - exeption paramiko mikoerr4")
+                    print(mikoerr4)
+
+                    continue
+
+                except netmiko.ssh_exception.NetmikoAuthenticationException as mikoerr5:
+                    print("Erro de login - exeption netmiko mikoerr5")
+                    print(mikoerr5)
+
+                    continue
+
+                except paramiko.ssh_exception.SSHException as erro1:
+                    print("erro de login - exeption paramiko erro")
+                    print(erro1)
+
+                    continue
                 #except netmiko.ssh_exception.AuthenticationException as mikoerr2:
                     #arqconfig = open("erroconfig" + datatime + ".txt", "a+")
                     #arqconfig.write("Erro na config de ip: " + tempip + ": " + str(mikoerr2) + "\n")
