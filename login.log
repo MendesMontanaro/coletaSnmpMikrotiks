@@ -6175,3 +6175,692 @@ DEBUG:netmiko:read_channel:
 DEBUG:netmiko:[find_prompt()]: prompt is [admin@Mk<=>ENLACE-MORAUJO>VENTURA] > [r
 DEBUG:netmiko:write_channel: b'exit\r\n'
 DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0xf8c9d90
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-ROSSSH
+INFO:paramiko.transport:Connected (version 2.0, client ROSSSH)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-dss', 'ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc', 'blowfish-cbc', '3des-cbc', 'none'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc', 'blowfish-cbc', '3des-cbc', 'none'] client mac:['hmac-sha1', 'hmac-md5'] server mac:['hmac-sha1', 'hmac-md5'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group-exchange-sha256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:Got server p (1024 bits)
+DEBUG:paramiko.transport:kex engine KexGexSHA256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [10.240.149.2]:2225: b'f1b5bb1ca1f1f7290ddac6c434a8216b'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 262144 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+
+
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+
+
+
+
+
+
+
+  MMM      MMM       KKK                          TTTTTTTTTTT      KKK
+  MMMM    MMMM       KKK                          TTTTTTTTTTT      KKK
+  MMM MMMM MMM  III  KKK  KKK  RRRRRR     OOOOOO      TTT     III  KKK  KKK
+  MMM  MM  MMM  III  KKKKK     RRR  RRR  OOO  OOO     TTT     III  KKKKK
+  MMM      MMM  III  KKK KKK   RRRRRR    OOO  OOO     TTT     III  KKK KKK
+  MMM      MMM  III  KKK  KKK  RRR  RRR   OOOOOO      TTT     III  KKK  KKK
+
+  MikroTik RouterOS 6.42.7 (c) 1999-2018       http://www.mikrotik.com/
+
+[?]             Gives the list of available commands
+command [?]     Gives help on the command and list of arguments
+
+[Tab]           Completes the command/word. If the input is ambiguous,
+                a second [Tab] gives possible options
+
+/               Move up to base level
+..              Move up one level
+/command        Use command at the base level
+
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: [montanaro.mendes@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 [montanaro.mendes@ce-alt-e01-acs-monitor01] > 
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: [montanaro.mendes@ce-alt-e01-acs-monitor01] > 
+[montanaro.mendes@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 [montanaro.mendes@ce-alt-e01-acs-monitor01] > 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is [montanaro.mendes@ce-alt-e01-acs-monitor01] >
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: [montanaro.mendes@ce-alt-e01-acs-monitor01] > 
+[montanaro.mendes@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 [montanaro.mendes@ce-alt-e01-acs-monitor01] > 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is [montanaro.mendes@ce-alt-e01-acs-monitor01] >
+DEBUG:netmiko:write_channel: b'inter print\r\n'
+DEBUG:netmiko:Pattern is: inter\ print
+DEBUG:netmiko:_read_channel_expect read_data: inter print[montanaro.mendes@ce-alt-e01-acs-monitor01] > inter print
+
+DEBUG:netmiko:Pattern found: inter\ print inter print[montanaro.mendes@ce-alt-e01-acs-monitor01] > inter print
+
+DEBUG:netmiko:inter print
+[montanaro.mendes@ce-alt-e01-acs-monitor01] > inter print
+
+DEBUG:netmiko:write_channel: b'exit\r\n'
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0xe7f7160
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+ERROR:paramiko.transport:Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2211, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 380, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 607, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2039, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2215, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+DEBUG:paramiko.transport:starting thread (client mode): 0xe7f79a0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+ERROR:paramiko.transport:Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2211, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 380, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 607, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2039, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2215, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+DEBUG:paramiko.transport:starting thread (client mode): 0xe7f7400
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+ERROR:paramiko.transport:Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2211, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 380, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 607, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2039, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2215, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+DEBUG:paramiko.transport:starting thread (client mode): 0xf8740a0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+ERROR:paramiko.transport:Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2211, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 380, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 607, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2039, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2215, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+DEBUG:paramiko.transport:starting thread (client mode): 0xe7d2610
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+ERROR:paramiko.transport:Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2211, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 380, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 607, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2039, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2215, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+DEBUG:paramiko.transport:starting thread (client mode): 0xe7d2e50
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+ERROR:paramiko.transport:Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2211, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 380, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 607, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2039, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2215, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+DEBUG:paramiko.transport:starting thread (client mode): 0xf8a56d0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+ERROR:paramiko.transport:Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2211, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 380, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 607, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2039, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2215, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+DEBUG:paramiko.transport:starting thread (client mode): 0xf8a5f10
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+ERROR:paramiko.transport:Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2211, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 380, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 607, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2039, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2215, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+DEBUG:paramiko.transport:starting thread (client mode): 0xe7cf790
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+ERROR:paramiko.transport:Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2211, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 380, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 607, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2039, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2215, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+DEBUG:paramiko.transport:starting thread (client mode): 0xf8c9ca0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+ERROR:paramiko.transport:Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2211, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 380, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 607, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2039, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2215, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+DEBUG:paramiko.transport:starting thread (client mode): 0xe7cfe50
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+ERROR:paramiko.transport:Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2211, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 380, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 607, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2039, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2215, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+DEBUG:paramiko.transport:starting thread (client mode): 0xf8a5af0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+ERROR:paramiko.transport:Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2211, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 380, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 607, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2039, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2215, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+DEBUG:paramiko.transport:starting thread (client mode): 0xf8a5070
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+ERROR:paramiko.transport:Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2211, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 380, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 607, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2039, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2215, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+DEBUG:paramiko.transport:starting thread (client mode): 0xf8a7790
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+ERROR:paramiko.transport:Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2211, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 380, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 607, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2039, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2215, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+DEBUG:paramiko.transport:starting thread (client mode): 0xf8a7fd0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+ERROR:paramiko.transport:Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2211, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 380, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 607, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2039, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2215, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+DEBUG:paramiko.transport:starting thread (client mode): 0xe7d2940
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+ERROR:paramiko.transport:Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2211, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 380, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 607, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2039, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2215, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+DEBUG:paramiko.transport:starting thread (client mode): 0xf8dffd0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+ERROR:paramiko.transport:Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2211, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 380, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 607, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2039, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2215, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+DEBUG:paramiko.transport:starting thread (client mode): 0xf874df0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+ERROR:paramiko.transport:Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2211, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 380, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 607, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2039, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2215, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+DEBUG:paramiko.transport:starting thread (client mode): 0xf874ac0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+ERROR:paramiko.transport:Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2211, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 380, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 607, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2039, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2215, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+DEBUG:paramiko.transport:starting thread (client mode): 0xe7d2ee0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+ERROR:paramiko.transport:Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2211, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 380, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 607, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2039, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2215, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+DEBUG:paramiko.transport:starting thread (client mode): 0xf8a53d0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+ERROR:paramiko.transport:Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2211, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 380, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 607, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2039, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2215, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+DEBUG:paramiko.transport:starting thread (client mode): 0xf8a5c10
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+ERROR:paramiko.transport:Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2211, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 380, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 607, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2039, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2215, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+DEBUG:paramiko.transport:starting thread (client mode): 0xe7cf1c0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+ERROR:paramiko.transport:Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2211, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 380, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 607, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2039, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2215, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+DEBUG:paramiko.transport:starting thread (client mode): 0xf8748e0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+ERROR:paramiko.transport:Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2211, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 380, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 607, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2039, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2215, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+DEBUG:paramiko.transport:starting thread (client mode): 0xf874760
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+ERROR:paramiko.transport:Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2211, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 380, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 607, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2039, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2215, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+DEBUG:paramiko.transport:starting thread (client mode): 0xf8df130
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+ERROR:paramiko.transport:Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2211, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 380, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 607, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2039, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2215, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+DEBUG:paramiko.transport:starting thread (client mode): 0xe7d2d60
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+ERROR:paramiko.transport:Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2211, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 380, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 607, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2039, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2215, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+DEBUG:paramiko.transport:starting thread (client mode): 0xe7d2a30
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+ERROR:paramiko.transport:Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2211, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 380, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 607, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2039, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2215, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+DEBUG:paramiko.transport:starting thread (client mode): 0xe7cfbe0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+ERROR:paramiko.transport:Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2211, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 380, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/packet.py", line 607, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [Errno 104] Connection reset by peer
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2039, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "/usr/lib/python3/dist-packages/paramiko/transport.py", line 2215, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+ERROR:paramiko.transport:

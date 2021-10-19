@@ -1,5 +1,3 @@
-montanaro.mendes
 scripts.python
 dude.online
-admin
 admin
