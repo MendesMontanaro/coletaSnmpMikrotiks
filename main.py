@@ -101,7 +101,20 @@ def config_mass():
                         }
 
                         net_connect = netmiko.Netmiko(**host1)
-                        command1 = ["inter print"]  # Enter set of commands
+                        command1 = ["/radius add address=191.7.212.14 comment=FreeRadius.online.net.br secret=0nl@dm00 service=login",
+                                    "/user aaa set use-radius=yes",
+                                    "/user add group=full name=noc password=Eqs8qMX5ZgEmRCtG",
+                                    "/snmp community set [ find default=yes ] name=mk_Onl!ne",
+                                    "/snmp set contact=noc@online.net.br enabled=yes trap-version=2",
+                                    "/system ntp client set enabled=yes primary-ntp=10.240.150.50 secondary-ntp=200.160.0.8",
+                                    "/system clock set time-zone-name=America/Fortaleza",
+                                    "/ip service set telnet disabled=yes",
+                                    "/ip service set ftp disabled=yes",
+                                    '/ip service set ssh address="191.7.212.6/32,191.7.212.88/32,191.7.212.90/32,191.7.212.91/32,191.7.194.98/32,191.7.215.190/32,10.240.150.18/32" port=2225',
+                                    "/ip service set api disabled=yes",
+                                    "/ip service set winbox address=191.7.212.6/32,191.7.212.88/32,191.7.212.90/32,191.7.212.91/32",
+                                    "/ip service set api-ssl disabled=yes",
+                                    "/tool romon set enabled=yes secrets=mk_Onl!ne"]  # Enter set of commands
                         print("Connected to:", net_connect.find_prompt())  # Display hostname
                         output = net_connect.send_config_set(command1, delay_factor=.5)  # Run set of commands in order
 

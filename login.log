@@ -11110,3 +11110,274 @@ DEBUG:paramiko.transport:Adding ssh-dss host key for 10.240.57.130: b'529bc9aafa
 DEBUG:paramiko.transport:userauth is OK
 DEBUG:paramiko.transport:starting thread (client mode): 0x2c025ac0
 DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+DEBUG:paramiko.transport:starting thread (client mode): 0x2ba36d60
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.6.0
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-ROSSSH
+INFO:paramiko.transport:Connected (version 2.0, client ROSSSH)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-dss', 'ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc', 'blowfish-cbc', '3des-cbc', 'none'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc', 'blowfish-cbc', '3des-cbc', 'none'] client mac:['hmac-sha1', 'hmac-md5'] server mac:['hmac-sha1', 'hmac-md5'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group-exchange-sha256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:Got server p (1024 bits)
+DEBUG:paramiko.transport:kex engine KexGexSHA256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [10.240.149.2]:2225: b'f1b5bb1ca1f1f7290ddac6c434a8216b'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 262144 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+
+
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+
+
+
+
+
+
+
+  MMM      MMM       KKK                          TTTTTTTTTTT      KKK
+  MMMM    MMMM       KKK                          TTTTTTTTTTT      KKK
+  MMM MMMM MMM  III  KKK  KKK  RRRRRR     OOOOOO      TTT     III  KKK  KKK
+  MMM  MM  MMM  III  KKKKK     RRR  RRR  OOO  OOO     TTT     III  KKKKK
+  MMM      MMM  III  KKK KKK   RRRRRR    OOO  OOO     TTT     III  KKK KKK
+  MMM      MMM  III  KKK  KKK  RRR  RRR   OOOOOO      TTT     III  KKK  KKK
+
+  MikroTik RouterOS 6.42.7 (c) 1999-2018       http://www.mikrotik.com/
+
+[?]             Gives the list of available commands
+command [?]     Gives help on the command and list of arguments
+
+[Tab]           Completes the command/word. If the input is ambiguous,
+                a second [Tab] gives possible options
+
+/               Move up to base level
+..              Move up one level
+/command        Use command at the base level
+
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: [scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [scripts.python@ce-alt-e01-acs-monitor01] > 
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: [scripts.python@ce-alt-e01-acs-monitor01] > 
+[scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [scripts.python@ce-alt-e01-acs-monitor01] > 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is [scripts.python@ce-alt-e01-acs-monitor01] >
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: [scripts.python@ce-alt-e01-acs-monitor01] > 
+[scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [scripts.python@ce-alt-e01-acs-monitor01] > 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is [scripts.python@ce-alt-e01-acs-monitor01] >
+DEBUG:netmiko:write_channel: b'/radius add address=191.7.212.14 comment=FreeRadius.online.net.br secret=0nl@dm00 service=login\r\n'
+DEBUG:netmiko:Pattern is: /radius\ add\ address=191\.7\.212\.14\ comment=FreeRadius\.online\.net\.br\ secret=0nl@dm00\ service=login
+DEBUG:netmiko:_read_channel_expect read_data: /radius add address=191.7.212.14 comment=FreeRadius.online.net.br secret=0nl@dm00 service=login[scripts.python@ce-alt-e01-acs-monitor01] > /radius add address=191.7.212.14 comment=FreeRadius.online.net.br secret=0nl@dm00 service=login
+
+DEBUG:netmiko:Pattern found: /radius\ add\ address=191\.7\.212\.14\ comment=FreeRadius\.online\.net\.br\ secret=0nl@dm00\ service=login /radius add address=191.7.212.14 comment=FreeRadius.online.net.br secret=0nl@dm00 service=login[scripts.python@ce-alt-e01-acs-monitor01] > /radius add address=191.7.212.14 comment=FreeRadius.online.net.br secret=0nl@dm00 service=login
+
+DEBUG:netmiko:write_channel: b'/user aaa set use-radius=yes\r\n'
+DEBUG:netmiko:Pattern is: /user\ aaa\ set\ use\-radius=yes
+DEBUG:netmiko:_read_channel_expect read_data: [scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [scripts.python@ce-alt-e01-acs-monitor01] > 
+DEBUG:netmiko:_read_channel_expect read_data: /user aaa set use-radius=yes[scripts.python@ce-alt-e01-acs-monitor01] > /user aaa set use-radius=yes
+[scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [scripts.python@ce-alt-e01-acs-monitor01] > 
+DEBUG:netmiko:Pattern found: /user\ aaa\ set\ use\-radius=yes [scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [scripts.python@ce-alt-e01-acs-monitor01] > /user aaa set use-radius=yes[scripts.python@ce-alt-e01-acs-monitor01] > /user aaa set use-radius=yes
+[scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [scripts.python@ce-alt-e01-acs-monitor01] > 
+DEBUG:netmiko:write_channel: b'/user add group=full name=noc password=Eqs8qMX5ZgEmRCtG\r\n'
+DEBUG:netmiko:Pattern is: /user\ add\ group=full\ name=noc\ password=Eqs8qMX5ZgEmRCtG
+DEBUG:netmiko:_read_channel_expect read_data: /user add group=full name=noc password=Eqs8qMX5ZgEmRCtG[scripts.python@ce-alt-e01-acs-monitor01] > /user add group=full name=noc password=Eqs8qMX5ZgEmRCtG
+
+DEBUG:netmiko:Pattern found: /user\ add\ group=full\ name=noc\ password=Eqs8qMX5ZgEmRCtG /user add group=full name=noc password=Eqs8qMX5ZgEmRCtG[scripts.python@ce-alt-e01-acs-monitor01] > /user add group=full name=noc password=Eqs8qMX5ZgEmRCtG
+
+DEBUG:netmiko:write_channel: b'/snmp community set [ find default=yes ] name=mk_Onl!ne\r\n'
+DEBUG:netmiko:Pattern is: /snmp\ community\ set\ \[\ find\ default=yes\ \]\ name=mk_Onl!ne
+DEBUG:netmiko:_read_channel_expect read_data: failure: user with the same name already exisits
+[scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [scripts.python@ce-alt-e01-acs-monitor01] > 
+DEBUG:netmiko:_read_channel_expect read_data: /snmp community set [ find default=yes ] name=mk_Onl!ne[scripts.python@ce-alt-e01-acs-monitor01] > /snmp community set [ find default=yes ] name=mk_Onl!ne
+[scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [scripts.python@ce-alt-e01-acs-monitor01] > 
+DEBUG:netmiko:Pattern found: /snmp\ community\ set\ \[\ find\ default=yes\ \]\ name=mk_Onl!ne failure: user with the same name already exisits
+[scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [scripts.python@ce-alt-e01-acs-monitor01] > /snmp community set [ find default=yes ] name=mk_Onl!ne[scripts.python@ce-alt-e01-acs-monitor01] > /snmp community set [ find default=yes ] name=mk_Onl!ne
+[scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [scripts.python@ce-alt-e01-acs-monitor01] > 
+DEBUG:netmiko:write_channel: b'/snmp set contact=noc@online.net.br enabled=yes trap-version=2\r\n'
+DEBUG:netmiko:Pattern is: /snmp\ set\ contact=noc@online\.net\.br\ enabled=yes\ trap\-version=2
+DEBUG:netmiko:_read_channel_expect read_data: /snmp set contact=noc@online.net.br enabled=yes trap-version=2[scripts.python@ce-alt-e01-acs-monitor01] > /snmp set contact=noc@online.net.br enabled=yes trap-version=2
+
+DEBUG:netmiko:Pattern found: /snmp\ set\ contact=noc@online\.net\.br\ enabled=yes\ trap\-version=2 /snmp set contact=noc@online.net.br enabled=yes trap-version=2[scripts.python@ce-alt-e01-acs-monitor01] > /snmp set contact=noc@online.net.br enabled=yes trap-version=2
+
+DEBUG:netmiko:write_channel: b'/system ntp client set enabled=yes primary-ntp=10.240.150.50 secondary-ntp=200.160.0.8\r\n'
+DEBUG:netmiko:Pattern is: /system\ ntp\ client\ set\ enabled=yes\ primary\-ntp=10\.240\.150\.50\ secondary\-ntp=200\.160\.0\.8
+DEBUG:netmiko:_read_channel_expect read_data: [scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [scripts.python@ce-alt-e01-acs-monitor01] > 
+DEBUG:netmiko:_read_channel_expect read_data: /system ntp client set enabled=yes primary-ntp=10.240.150.50 secondary-ntp=200.160.0.8[scripts.python@ce-alt-e01-acs-monitor01] > /system ntp client set enabled=yes primary-ntp=10.240.150.50 secondary-ntp=200.160.0.8
+[scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [scripts.python@ce-alt-e01-acs-monitor01] > 
+DEBUG:netmiko:Pattern found: /system\ ntp\ client\ set\ enabled=yes\ primary\-ntp=10\.240\.150\.50\ secondary\-ntp=200\.160\.0\.8 [scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [scripts.python@ce-alt-e01-acs-monitor01] > /system ntp client set enabled=yes primary-ntp=10.240.150.50 secondary-ntp=200.160.0.8[scripts.python@ce-alt-e01-acs-monitor01] > /system ntp client set enabled=yes primary-ntp=10.240.150.50 secondary-ntp=200.160.0.8
+[scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [scripts.python@ce-alt-e01-acs-monitor01] > 
+DEBUG:netmiko:write_channel: b'/system clock set time-zone-name=America/Fortaleza\r\n'
+DEBUG:netmiko:Pattern is: /system\ clock\ set\ time\-zone\-name=America/Fortaleza
+DEBUG:netmiko:_read_channel_expect read_data: /system clock set time-zone-name=America/Fortaleza[scripts.python@ce-alt-e01-acs-monitor01] > /system clock set time-zone-name=America/Fortaleza
+
+DEBUG:netmiko:Pattern found: /system\ clock\ set\ time\-zone\-name=America/Fortaleza /system clock set time-zone-name=America/Fortaleza[scripts.python@ce-alt-e01-acs-monitor01] > /system clock set time-zone-name=America/Fortaleza
+
+DEBUG:netmiko:write_channel: b'/ip service set telnet disabled=yes\r\n'
+DEBUG:netmiko:Pattern is: /ip\ service\ set\ telnet\ disabled=yes
+DEBUG:netmiko:_read_channel_expect read_data: 
+DEBUG:netmiko:_read_channel_expect read_data: [scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+DEBUG:netmiko:_read_channel_expect read_data:   [scripts.python@ce-alt-e01-acs-monitor01] > /ip service set telnet disabled=yes[scripts.python@ce-alt-e01-acs-monitor01] > /ip service set telnet disabled=yes
+
+DEBUG:netmiko:Pattern found: /ip\ service\ set\ telnet\ disabled=yes [scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [scripts.python@ce-alt-e01-acs-monitor01] > /ip service set telnet disabled=yes[scripts.python@ce-alt-e01-acs-monitor01] > /ip service set telnet disabled=yes
+
+DEBUG:netmiko:write_channel: b'/ip service set ftp disabled=yes\r\n'
+DEBUG:netmiko:Pattern is: /ip\ service\ set\ ftp\ disabled=yes
+DEBUG:netmiko:_read_channel_expect read_data: 
+DEBUG:netmiko:_read_channel_expect read_data: [scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [scripts.python@ce-alt-e01-acs-monitor01] > /ip service set ftp disabled=yes[scripts.python@ce-alt-e01-acs-monitor01] > /ip service set ftp disabled=yes
+[scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [scripts.python@ce-alt-e01-acs-monitor01] > 
+DEBUG:netmiko:Pattern found: /ip\ service\ set\ ftp\ disabled=yes [scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [scripts.python@ce-alt-e01-acs-monitor01] > /ip service set ftp disabled=yes[scripts.python@ce-alt-e01-acs-monitor01] > /ip service set ftp disabled=yes
+[scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [scripts.python@ce-alt-e01-acs-monitor01] > 
+DEBUG:netmiko:write_channel: b'/ip service set ssh address="191.7.212.6/32,191.7.212.88/32,191.7.212.90/32,191.7.212.91/32,191.7.194.98/32,191.7\\ .215.190/32,10.240.150.18/32" port=2225\r\n'
+DEBUG:netmiko:Pattern is: /ip\ service\ set\ ssh\ address="191\.7\.212\.6/32,191\.7\.212\.88/32,191\.7\.212\.90/32,191\.7\.212\.91/32,191\.7\.194\.98/32,191\.7\\\ \.215\.190/32,10\.240\.150\.18/32"\ port=2225
+DEBUG:netmiko:_read_channel_expect read_data: /ip service set ssh address="191.7.212.6/32,191.7.212.88/32,191.7.212.90/32,191.7.212.91/32,191.7.194.98/32,191.7\ .215.190/32,10.240.150.18/32" port=2225[scripts.python@ce-alt-e01-acs-monitor01] > /ip service set ssh address="191.7.212.6/32,191.7.212.88/32,191.7.212.90/32,191.7.212.91/32,191.7.194.98/32,191.7\ .215.190/32,10.240.150.18/32" port=2225
+
+DEBUG:netmiko:Pattern found: /ip\ service\ set\ ssh\ address="191\.7\.212\.6/32,191\.7\.212\.88/32,191\.7\.212\.90/32,191\.7\.212\.91/32,191\.7\.194\.98/32,191\.7\\\ \.215\.190/32,10\.240\.150\.18/32"\ port=2225 /ip service set ssh address="191.7.212.6/32,191.7.212.88/32,191.7.212.90/32,191.7.212.91/32,191.7.194.98/32,191.7\ .215.190/32,10.240.150.18/32" port=2225[scripts.python@ce-alt-e01-acs-monitor01] > /ip service set ssh address="191.7.212.6/32,191.7.212.88/32,191.7.212.90/32,191.7.212.91/32,191.7.194.98/32,191.7\ .215.190/32,10.240.150.18/32" port=2225
+
+DEBUG:netmiko:write_channel: b'/ip service set api disabled=yes\r\n'
+DEBUG:netmiko:Pattern is: /ip\ service\ set\ api\ disabled=yes
+DEBUG:netmiko:_read_channel_expect read_data: 
+DEBUG:netmiko:_read_channel_expect read_data: [scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [scripts.python@ce-alt-e01-acs-monitor01] > /ip service set api disabled=yes[scripts.python@ce-alt-e01-acs-monitor01] > /ip service set api disabled=yes
+[scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [scripts.python@ce-alt-e01-acs-monitor01] > 
+DEBUG:netmiko:Pattern found: /ip\ service\ set\ api\ disabled=yes [scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [scripts.python@ce-alt-e01-acs-monitor01] > /ip service set api disabled=yes[scripts.python@ce-alt-e01-acs-monitor01] > /ip service set api disabled=yes
+[scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [scripts.python@ce-alt-e01-acs-monitor01] > 
+DEBUG:netmiko:write_channel: b'/ip service set winbox address=191.7.212.6/32,191.7.212.88/32,191.7.212.90/32,191.7.212.91/32\r\n'
+DEBUG:netmiko:Pattern is: /ip\ service\ set\ winbox\ address=191\.7\.212\.6/32,191\.7\.212\.88/32,191\.7\.212\.90/32,191\.7\.212\.91/32
+DEBUG:netmiko:_read_channel_expect read_data: /ip service set winbox address=191.7.212.6/32,191.7.212.88/32,191.7.212.90/32,191.7.212.91/32[scripts.python@ce-alt-e01-acs-monitor01] > /ip service set winbox address=191.7.212.6/32,191.7.212.88/32,191.7.212.90/32,191.7.212.91/32
+
+DEBUG:netmiko:Pattern found: /ip\ service\ set\ winbox\ address=191\.7\.212\.6/32,191\.7\.212\.88/32,191\.7\.212\.90/32,191\.7\.212\.91/32 /ip service set winbox address=191.7.212.6/32,191.7.212.88/32,191.7.212.90/32,191.7.212.91/32[scripts.python@ce-alt-e01-acs-monitor01] > /ip service set winbox address=191.7.212.6/32,191.7.212.88/32,191.7.212.90/32,191.7.212.91/32
+
+DEBUG:netmiko:write_channel: b'/ip service set api-ssl disabled=yes\r\n'
+DEBUG:netmiko:Pattern is: /ip\ service\ set\ api\-ssl\ disabled=yes
+DEBUG:netmiko:_read_channel_expect read_data: [scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [scripts.python@ce-alt-e01-acs-monitor01] > /ip service set api-ssl disabled=yes[scripts.python@ce-alt-e01-acs-monitor01] > /ip service set api-ssl disabled=yes
+[scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [scripts.python@ce-alt-e01-acs-monitor01] > 
+DEBUG:netmiko:Pattern found: /ip\ service\ set\ api\-ssl\ disabled=yes [scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [scripts.python@ce-alt-e01-acs-monitor01] > /ip service set api-ssl disabled=yes[scripts.python@ce-alt-e01-acs-monitor01] > /ip service set api-ssl disabled=yes
+[scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [scripts.python@ce-alt-e01-acs-monitor01] > 
+DEBUG:netmiko:write_channel: b'/tool romon set enabled=yes secrets=mk_Onl!ne\r\n'
+DEBUG:netmiko:Pattern is: /tool\ romon\ set\ enabled=yes\ secrets=mk_Onl!ne
+DEBUG:netmiko:_read_channel_expect read_data: /tool romon set enabled=yes secrets=mk_Onl!ne[scripts.python@ce-alt-e01-acs-monitor01] > /tool romon set enabled=yes secrets=mk_Onl!ne
+
+DEBUG:netmiko:Pattern found: /tool\ romon\ set\ enabled=yes\ secrets=mk_Onl!ne /tool romon set enabled=yes secrets=mk_Onl!ne[scripts.python@ce-alt-e01-acs-monitor01] > /tool romon set enabled=yes secrets=mk_Onl!ne
+
+DEBUG:netmiko:/radius add address=191.7.212.14 comment=FreeRadius.online.net.br secret=0nl@dm00 service=login
+[scripts.python@ce-alt-e01-acs-monitor01] > /radius add address=191.7.212.14 comment=FreeRadius.online.net.br secret=0nl@dm00 service=login
+
+
+
+
+
+[scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+[scripts.python@ce-alt-e01-acs-monitor01] > /user aaa set use-radius=yes
+[scripts.python@ce-alt-e01-acs-monitor01] > /user aaa set use-radius=yes
+
+
+
+
+
+[scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+[scripts.python@ce-alt-e01-acs-monitor01] > /user add group=full name=noc password=Eqs8qMX5ZgEmRCtG
+[scripts.python@ce-alt-e01-acs-monitor01] > /user add group=full name=noc password=Eqs8qMX5ZgEmRCtG
+
+failure: user with the same name already exisits
+
+
+
+[scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+[scripts.python@ce-alt-e01-acs-monitor01] > /snmp community set [ find default=yes ] name=mk_Onl!ne
+[scripts.python@ce-alt-e01-acs-monitor01] > /snmp community set [ find default=yes ] name=mk_Onl!ne
+
+
+
+
+
+[scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+[scripts.python@ce-alt-e01-acs-monitor01] > /snmp set contact=noc@online.net.br enabled=yes trap-version=2
+[scripts.python@ce-alt-e01-acs-monitor01] > /snmp set contact=noc@online.net.br enabled=yes trap-version=2
+
+
+
+
+
+[scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+[scripts.python@ce-alt-e01-acs-monitor01] > /system ntp client set enabled=yes primary-ntp=10.240.150.50 secondary-ntp=200.160.0.8
+[scripts.python@ce-alt-e01-acs-monitor01] > /system ntp client set enabled=yes primary-ntp=10.240.150.50 secondary-ntp=200.160.0.8
+
+
+
+
+
+[scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+[scripts.python@ce-alt-e01-acs-monitor01] > /system clock set time-zone-name=America/Fortaleza
+[scripts.python@ce-alt-e01-acs-monitor01] > /system clock set time-zone-name=America/Fortaleza
+
+
+
+
+
+[scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+[scripts.python@ce-alt-e01-acs-monitor01] > /ip service set telnet disabled=yes
+[scripts.python@ce-alt-e01-acs-monitor01] > /ip service set telnet disabled=yes
+
+
+
+
+
+[scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+[scripts.python@ce-alt-e01-acs-monitor01] > /ip service set ftp disabled=yes
+[scripts.python@ce-alt-e01-acs-monitor01] > /ip service set ftp disabled=yes
+
+
+
+
+
+[scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+[scripts.python@ce-alt-e01-acs-monitor01] > /ip service set ssh address="191.7.212.6/32,191.7.212.88/32,191.7.212.90/32,191.7.212.91/32,191.7.194.98/32,191.7\ .215.190/32,10.240.150.18/32" port=2225
+[scripts.python@ce-alt-e01-acs-monitor01] > /ip service set ssh address="191.7.212.6/32,191.7.212.88/32,191.7.212.90/32,191.7.212.91/32,191.7.194.98/32,191.7\ .215.190/32,10.240.150.18/32" port=2225
+
+
+
+
+
+[scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+[scripts.python@ce-alt-e01-acs-monitor01] > /ip service set api disabled=yes
+[scripts.python@ce-alt-e01-acs-monitor01] > /ip service set api disabled=yes
+
+
+
+
+
+[scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+[scripts.python@ce-alt-e01-acs-monitor01] > /ip service set winbox address=191.7.212.6/32,191.7.212.88/32,191.7.212.90/32,191.7.212.91/32
+[scripts.python@ce-alt-e01-acs-monitor01] > /ip service set winbox address=191.7.212.6/32,191.7.212.88/32,191.7.212.90/32,191.7.212.91/32
+
+
+
+
+
+[scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+[scripts.python@ce-alt-e01-acs-monitor01] > /ip service set api-ssl disabled=yes
+[scripts.python@ce-alt-e01-acs-monitor01] > /ip service set api-ssl disabled=yes
+
+
+
+
+
+[scripts.python@ce-alt-e01-acs-monitor01] >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+[scripts.python@ce-alt-e01-acs-monitor01] > /tool romon set enabled=yes secrets=mk_Onl!ne
+[scripts.python@ce-alt-e01-acs-monitor01] > /tool romon set enabled=yes secrets=mk_Onl!ne
+
+DEBUG:netmiko:write_channel: b'exit\r\n'
+DEBUG:paramiko.transport:EOF in transport thread
