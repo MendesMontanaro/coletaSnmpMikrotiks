@@ -83,7 +83,7 @@ def config_mass():
 
                     # Um tempinho só para acompanhar os prints
                     # Depois pode tirar essa linha
-                    time.sleep(2)
+                    #time.sleep(2)
 
                     print("\nVamos lá!")
                     print(" >> IP: ", ipline, " porta: ", portline, "usuario: ", user, "senha: ", password)
