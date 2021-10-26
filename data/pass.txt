@@ -1,2 +1,1 @@
-scripts.python
 @ddonl1n3

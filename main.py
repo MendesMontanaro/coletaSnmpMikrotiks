@@ -146,11 +146,6 @@ def config_mass():
                     except ValueError as e2:
                         print("Erro de ValueError ")
                         continue
-                        # arqconfig = open("erroconfig" + datatime + ".txt", "a+")
-                        # arqconfig.write("Erro na coinfig de ip: " + tempip + ": " + str(e2) + "\n")
-                        # arqconfig.close()
-                        # signal.alarm(0)
-                        # continue
 
                     except netmiko.ssh_exception.NetmikoTimeoutException as mikoerr3:
                         print("Erro de login - exeption netmiko timeout mikoerr3")
@@ -168,7 +163,7 @@ def config_mass():
                         continue
 
                     except paramiko.ssh_exception.SSHException as erro1:
-                        print("erro de login - exeption paramiko erro")
+                        print("erro de login - exeption paramiko erro\nPossívelmente - corrupted key on device")
                         # print(erro1)
 
                         continue
