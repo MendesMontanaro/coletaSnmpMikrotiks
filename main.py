@@ -76,14 +76,15 @@ def config_mass():
                 # se a Flag for verdadeira para o for
                 if Flag == True: break
 
-                # roda em cima dos passwords
+                # roda em cima dos
+                # passwords
                 for password in passlist:
                     # se a Flag for verdadeira para o for
                     if Flag == True: break
 
                     # Um tempinho só para acompanhar os prints
                     # Depois pode tirar essa linha
-                    time.sleep(2)
+                    #time.sleep(2)
 
                     print("\nVamos lá!")
                     print(" >> IP: ", ipline, " porta: ", portline, "usuario: ", user, "senha: ", password)

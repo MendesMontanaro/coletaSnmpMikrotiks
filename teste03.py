@@ -21,12 +21,16 @@ def coleta():
 
         try:
 
+            print("oi")
             print("Iniciando coleta no ip: " + iplist[line])
 
             response = os.system("snmpwalk -v2c -c'm_Onl!ne' " + iplist[line] + " 1.0.8802.1.1.2.1.3.4.0 ")
-
+            response = response.read().split(":")[1]
             print(response)
             pass
 
         finally:
             signal.alarm(0)
+
+
+coleta()
